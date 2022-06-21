@@ -6,5 +6,5 @@ app.get('/',function(req,res) {
 	res.send('<p>some html</p>')
 })
 app.listen(port, function() {
-	console.log('servidor')
+	console.log('servidor corriendo')
 })
