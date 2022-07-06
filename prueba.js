@@ -10,6 +10,6 @@ app.get('/',function(req,res) {
 	res.sendFile(path.join(__dirname,'prueba.html'))
 })
 app.use(express.static(path.join(__dirname)))
-console.log(path.join(__dirname))
+
 
 app.listen(port)
