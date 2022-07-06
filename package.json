@@ -4,7 +4,7 @@
   "description": "",
   "main": "prueba.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon prueba.js",
     "start" : "node prueba.js"
   },
   "keywords": [],
@@ -12,5 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
+
 }
