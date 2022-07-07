@@ -13,5 +13,5 @@ app.use(express.static(path.join(__dirname)))
 
 
 app.listen(port,function() {
-	console.log('run')
+	
 })

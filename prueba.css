@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 body{
-	
+	font-family: 'Raleway';
+	color: #fff;
+	width: 100%;
+
+}
+.header{
+	height: 100vh;
+	overflow: hidden;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto; 
+	background-size: 100% 100%;
 }
