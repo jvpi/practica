@@ -1,0 +1,1 @@
+alert('brinda el cigarro maldito')
