@@ -162,4 +162,54 @@ body{
 	background-color: #000;
 	
 }
-/*.main-h2, .main-h3*/
+/*service*/
+.service{
+	background-color: #171717;
+	overflow: hidden;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.service-title{
+	font-size: 3em;
+	margin-bottom: 40px;
+}
+.content-article{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.article{
+	width: 20%;
+	text-align: center;
+	background-color: #383838;
+	margin-left: 15px;
+	padding:20px;
+	border-radius: 10px
+}
+.article-title{
+	font-size: 1em;
+}
+.article-parrafo{
+	font-size: .9em;
+	line-height: 19px;
+	padding: 10px 0; 
+	color: #fcfc;
+}
+.service-btn{
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #EA5454;
+	color: #fff;
+	border: 1px solid #EA5454; 
+	transition: background-color .4s
+}
+.service-btn:hover{
+	background-color: #000;
+	
+}
