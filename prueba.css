@@ -105,3 +105,61 @@ body{
 	top: 6px;
 	right: 60px;
 }
+
+/*main*/
+.main{
+	background-color: #302F2F;
+	overflow: hidden;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+}
+.figure{
+	width: 50%;
+	
+	display: flex;
+	justify-content: flex-end;
+
+}
+.main-img{
+	width: 350px ;
+	height: 500px;
+	object-fit: cover;
+}
+.main-container{
+	width: 50%;
+	
+}
+.main-h1{
+	font-size: 3.5em;
+	margin-bottom: 0;
+}
+
+.main-h2 span {
+	color: #EA5454;
+}
+.parrafo{
+	letter-spacing: 1px;
+	line-height: 23px
+}
+.main-btn{
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #EA5454;
+	color: #fff;
+	border: 1px solid #EA5454; 
+	transition: background-color .4s
+}
+.main-btn:hover{
+	background-color: #000;
+	
+}
+/*.main-h2, .main-h3*/
