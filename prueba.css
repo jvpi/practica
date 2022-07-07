@@ -213,3 +213,23 @@ body{
 	background-color: #000;
 	
 }
+.footer{
+	background-color: #302F2F;
+	overflow: hidden; 
+	text-align: center;
+	padding: 20px 0;
+}
+.footer-btn{
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #EA5454;
+	color: #fff;
+	border: 1px solid #EA5454; 
+	transition: background-color .4s
+}
+.footer-btn:hover{
+	background-color: #000;
+}
